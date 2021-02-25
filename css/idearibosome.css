@@ -1,0 +1,34 @@
+strong {
+  font-weight: 600;
+}
+
+.logo-image {
+  max-width: 120px;
+}
+
+.article-item {
+  font-size: 1.171875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.article-item .badge {
+  margin-right: 0.25rem;
+}
+
+.article-item .detail {
+  font-size: 80%;
+  font-weight: 300;
+  color: #666;
+  padding-left: 1.25rem;
+}
+.article-item .detail::before {
+  content: "\2014\00A0";
+  padding-right: 0.25rem;
+  margin-left: -1.25rem;
+}
+
+.article-item .detail .hl {
+  text-decoration: underline;
+  font-weight: 600;
+}
