@@ -1,3 +1,20 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  padding: 16px;
+  margin: auto;
+  text-align: center;
+}
+
 strong {
   font-weight: 600;
 }
